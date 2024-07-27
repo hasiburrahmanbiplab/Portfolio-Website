@@ -56,6 +56,9 @@
     /* work part end */
 }
 @media (min-width:577px) and (max-width:767px) {
+    .gap{
+        margin: 45px 0;
+    }
     .section-h1 {
         font-size: 50px;
     }
