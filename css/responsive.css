@@ -49,6 +49,11 @@
         gap: 5px;
     }  
     /* project part end */
+    /* work part start */
+    .work-container {
+        padding: 82px 0;
+    }
+    /* work part end */
 }
 @media (min-width:577px) and (max-width:767px) {
     .section-h1 {
