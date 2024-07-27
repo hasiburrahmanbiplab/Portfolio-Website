@@ -52,6 +52,7 @@ a{
     font-weight: 500;
     color: var(--section-header-color);
     text-transform: capitalize;
+    padding-top: 20px;
 }
 .section-p{
     font-size: 16px;
@@ -168,3 +169,24 @@ a{
     margin: 10px 0;
 }
 /* about part end */
+/* project part start */
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 120px;
+}
+.project-content{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+}
+.project-content .project-card{
+    padding: 10px;
+}
+.project-content .project-card .card-image img{
+   width: 100%;
+   height: 100%;
+}
+/* project part end */
