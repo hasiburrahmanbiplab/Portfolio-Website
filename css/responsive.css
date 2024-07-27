@@ -1,6 +1,15 @@
 @media (max-width:576.99px) {
+    .gap {
+        margin: 35px 0;
+    }
     .section-h1 {
         font-size: 40px;
+    }
+    .section-h2 {
+        font-size: 30px;
+    }
+    .section-h3 {
+        font-size: 20px;
     }
     .header-container nav ul {
         justify-content: center;
@@ -31,10 +40,25 @@
         text-align: center;
     }
     /* about part end */
+    /* project part start */
+    .project-container{
+        row-gap: 80px;
+    }
+    .project-content{
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }  
+    /* project part end */
 }
 @media (min-width:577px) and (max-width:767px) {
     .section-h1 {
         font-size: 50px;
+    }
+    .section-h2 {
+        font-size: 35px;
+    }
+    .section-h3 {
+        font-size: 20px;
     }
     .banner-container {
         grid-template-columns: 1fr;
@@ -58,12 +82,28 @@
             width: 100%;
             text-align: center;
         }
-        /* about part end */
     /* about part end */
+    /* project part start */
+    .project-content{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 15px;
+    }
+    .project-content .project-card:nth-child(3){
+        grid-column:  span 2;
+        width: 55%;
+        justify-self: center;
+    }
+    /* project part end */
 }
 @media (min-width:768px) and (max-width:991.99px) {
     .section-h1 {
         font-size: 50px;
+    }
+    .section-h2 {
+        font-size: 35px;
+    }
+    .section-h3 {
+        font-size: 20px;
     }
     .banner-container {
         grid-template-columns: 1fr 1fr;
@@ -71,6 +111,14 @@
     .banner-container .banner-image{
         justify-content: center;
         align-items: start;
+    }
+    /* project start */
+    .project-container {
+        row-gap: 56px;
+    }
+    .project-content {
+        grid-template-columns: repeat(3 , 1fr);
+        gap: 5px;
     }
 }
 @media (min-width:992px) and (max-width:1199.99px) {
