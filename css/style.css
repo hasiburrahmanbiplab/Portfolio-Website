@@ -175,7 +175,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 120px;
+    row-gap: 100px;
 }
 .project-container .project-header{
     text-align: center;
@@ -183,7 +183,7 @@ a{
 .project-content{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    gap: 30px;
+    gap: 25px;
 }
 .project-content .project-card{
     padding: 10px;

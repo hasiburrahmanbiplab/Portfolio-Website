@@ -113,12 +113,14 @@
         align-items: start;
     }
     /* project start */
-    .project-container {
-        row-gap: 56px;
+    .project-content{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 15px;
     }
-    .project-content {
-        grid-template-columns: repeat(3 , 1fr);
-        gap: 5px;
+    .project-content .project-card:nth-child(3){
+        grid-column:  span 2;
+        width: 55%;
+        justify-self: center;
     }
 }
 @media (min-width:992px) and (max-width:1199.99px) {
